@@ -5,5 +5,5 @@ description = "Demo2 package that uses demo1"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-  "demo1 @ git+https://github.com/lwmacct/250726-uv-study.git#subdirectory=pyproject/demo1",
+  "demo1 @ git+ssh://git@github.com/lwmacct/250726-uv-study.git#subdirectory=pyproject/demo1",
 ]
