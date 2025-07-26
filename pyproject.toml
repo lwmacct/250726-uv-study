@@ -8,13 +8,3 @@ dependencies = []
 
 [tool.uv.workspace]
 members = ["pkg/pkg1", "pkg/pkg2", "pkg/pkg3"]
-
-[tool.uv.sources]
-# workspace 成员必须使用 workspace = true
-pkg2 = { workspace = true }
-pkg3 = { workspace = true }
-
-# 包依赖关系：
-# pkg1 → pkg2 → pkg3
-# pkg1 还依赖 requests@v2.30.0
-# uv pip install git+https://github.com/psf/requests.git@v2.30.0
