@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-demo1/__init__.py
-demo1/main.py
-demo1.egg-info/PKG-INFO
-demo1.egg-info/SOURCES.txt
-demo1.egg-info/dependency_links.txt
-demo1.egg-info/top_level.txt
