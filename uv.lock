@@ -19,6 +19,12 @@ source = { virtual = "." }
 name = "pkg1"
 version = "0.1.0"
 source = { editable = "pkg/pkg1" }
+dependencies = [
+    { name = "pkg2" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pkg2", editable = "pkg/pkg2" }]
 
 [[package]]
 name = "pkg2"

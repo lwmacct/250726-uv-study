@@ -3,11 +3,9 @@ name = "pkg1"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "lwmacct", email = "lwmacct@icloud.com" }
-]
+authors = [{ name = "lwmacct", email = "lwmacct@icloud.com" }]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["pkg2"]
 
 [project.scripts]
 pkg1 = "pkg1:main"
