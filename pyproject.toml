@@ -5,17 +5,3 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
-
-[tool.uv.workspace]
-members = [
-  "pyproject/master",
-  "pyproject/pkg1",
-  "pyproject/pkg2",
-  "pyproject/pkg3",
-]
-
-[tool.uv.sources]
-master = { workspace = true }
-pkg1 = { workspace = true }
-pkg2 = { workspace = true }
-pkg3 = { workspace = true }
