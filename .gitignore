@@ -11,3 +11,29 @@
 **/logs/**
 **/temp/**
 **/cache/**
+
+# Python 包构建文件
+**/*.egg-info/
+**/*.dist-info/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg
+**/MANIFEST
+
+# uv 相关
+**/uv.lock
