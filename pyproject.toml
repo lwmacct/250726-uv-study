@@ -8,15 +8,14 @@ dependencies = []
 
 [tool.uv.workspace]
 members = [
-    "pyproject/pkg1",
-    "pyproject/pkg2",
-    "pyproject/pkg3",
-    "pyproject/master",
+  "pyproject/master",
+  "pyproject/pkg1",
+  "pyproject/pkg2",
+  "pyproject/pkg3",
 ]
 
-# [tool.uv.workspace]
-# members = ["pyproject/demo1", "pyproject/demo2"]
-
-# [tool.uv.sources]
-# demo1 = { workspace = true }
-# demo2 = { workspace = true }
+[tool.uv.sources]
+master = { workspace = true }
+pkg1 = { workspace = true }
+pkg2 = { workspace = true }
+pkg3 = { workspace = true }
