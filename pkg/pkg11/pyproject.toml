@@ -1,20 +1,20 @@
 [project]
-name = "pkg1"
+name = "pkg11"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "lwmacct", email = "lwmacct@icloud.com" }]
 requires-python = ">=3.12"
 dependencies = [
-    # 方式1：独立使用时，使用完整的 Git 地址
-    "pkg2 @ git+https://github.com/lwmacct/250726-uv-study-master.git@main#subdirectory=pkg/pkg2",
-    "requests @ git+https://github.com/psf/requests.git@v2.30.0",
+  # 方式1：独立使用时，使用完整的 Git 地址
+  "pkg12 @ git+https://github.com/lwmacct/250726-uv-study-master.git@main#subdirectory=pkg/pkg12",
 
+  # 方式2：在 workspace 中使用时，可以简化为：
+  # "pkg12",
 ]
 
-
 [project.scripts]
-pkg1 = "pkg1:main"
+pkg11 = "pkg11:main"
 
 [build-system]
 requires = ["uv_build>=0.8.2,<0.9.0"]

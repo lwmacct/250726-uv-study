@@ -1,16 +1,14 @@
 [project]
-name = "pkg3"
+name = "pkg12"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "lwmacct", email = "lwmacct@icloud.com" }
-]
+authors = [{ name = "lwmacct", email = "lwmacct@icloud.com" }]
 requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-pkg3 = "pkg3:main"
+pkg12 = "pkg12:main"
 
 [build-system]
 requires = ["uv_build>=0.8.2,<0.9.0"]
