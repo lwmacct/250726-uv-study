@@ -1,0 +1,31 @@
+version = 1
+revision = 2
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "250726-uv-study",
+    "demo1",
+    "demo2",
+]
+
+[[package]]
+name = "250726-uv-study"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "demo1"
+version = "0.1.0"
+source = { editable = "pyproject/demo1" }
+
+[[package]]
+name = "demo2"
+version = "0.1.0"
+source = { editable = "pyproject/demo2" }
+dependencies = [
+    { name = "demo1" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "demo1", editable = "pyproject/demo1" }]
