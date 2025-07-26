@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
   "pkg10",
-  "250726-uv-study-pkg20 @ git+https://github.com/lwmacct/250726-uv-study-pkg20.git@v0.0.7",
+  "py-uv-study-pkg20-250726 @ git+https://github.com/lwmacct/250726-uv-study-pkg20.git@v0.0.8",
 ]
 
 [tool.uv.workspace]

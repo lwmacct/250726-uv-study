@@ -8,9 +8,9 @@ def main():
     pkg10.main()
 
     print("\n" + "="*50)
-    print("Now calling 250726-uv-study-pkg20:")
+    print("Now calling py-uv-study-pkg20-250726:")
     # 导入新安装的包
-    pkg20_module = importlib.import_module('250726_uv_study_pkg20')
+    pkg20_module = importlib.import_module('py_uv_study_pkg20_250726')
     pkg20_module.main()
 
 
