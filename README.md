@@ -14,7 +14,7 @@
 ## 项目结构
 
 ```
-250726-uv-study/
+250726-uv-study-master/
 ├── pyproject.toml          # 根项目配置，包含 workspace 设置
 ├── main.py                 # 根目录主入口文件
 ├── pkg/                    # 包目录
@@ -130,7 +130,7 @@ uv run pkg3
 ```bash
 # 1. 克隆项目
 git clone <repository-url>
-cd 250726-uv-study
+cd 250726-uv-study-master
 
 # 2. 同步依赖
 uv sync
