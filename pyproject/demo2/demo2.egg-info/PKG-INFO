@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: demo2
+Version: 0.1.0
+Summary: Demo2 package that uses demo1
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: demo1@ git+https://github.com/lwmacct/250726-uv-study.git#subdirectory=pyproject/demo1
+
 # Demo2
 
 这是一个演示包，展示如何使用 git 方式安装和使用 demo1 包。

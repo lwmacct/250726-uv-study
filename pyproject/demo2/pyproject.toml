@@ -1,7 +1,9 @@
 [project]
 name = "demo2"
 version = "0.1.0"
-description = "Add your description here"
+description = "Demo2 package that uses demo1"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+  "demo1 @ git+https://github.com/lwmacct/250726-uv-study.git#subdirectory=pyproject/demo1",
+]
