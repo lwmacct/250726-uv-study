@@ -1,0 +1,39 @@
+# 本地环境
+**/.DS_Store
+**/.local/*
+**/.venv/*
+**/.conda/*
+**/.taskfile/.env
+
+# 临时目录
+**/tmp/**
+**/log/**
+**/logs/**
+**/temp/**
+**/cache/**
+
+# Python 包构建文件
+**/*.egg-info/
+**/*.dist-info/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg
+**/MANIFEST
+
+# uv 相关
+**/uv.lock
