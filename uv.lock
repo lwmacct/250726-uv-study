@@ -30,6 +30,12 @@ requires-dist = [{ name = "pkg2", editable = "pkg/pkg2" }]
 name = "pkg2"
 version = "0.1.0"
 source = { editable = "pkg/pkg2" }
+dependencies = [
+    { name = "pkg3" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pkg3", editable = "pkg/pkg3" }]
 
 [[package]]
 name = "pkg3"
