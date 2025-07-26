@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "lwmacct", email = "lwmacct@icloud.com" }]
 requires-python = ">=3.12"
-dependencies = ["pkg2"]
+dependencies = [
+    "pkg2",
+    # "requests @ git+https://github.com/psf/requests.git@v2.30.0"
+]
 
 [project.scripts]
 pkg1 = "pkg1:main"
