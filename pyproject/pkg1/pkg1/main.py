@@ -1,10 +1,10 @@
 def main():
-    print("Hello from demo1!")
+    print("Hello from pkg1!")
 
 
 def get_message():
     """返回一个消息字符串"""
-    return "Hello from demo1 function!"
+    return "Hello from pkg1 function!"
 
 
 def calculate_sum(a, b):
