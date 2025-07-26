@@ -1,0 +1,8 @@
+[project]
+name = "demo1"
+version = "0.1.0"
+description = "Demo1 package with utility functions"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+authors = [{ name = "Demo Author", email = "demo@example.com" }]
