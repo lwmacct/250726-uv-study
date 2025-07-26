@@ -1,6 +1,6 @@
 [project]
 name = "pkg1"
-version = "0.1.0"
+version = "0.1.1"
 description = "Package 1 - Utility functions"
 readme = "README.md"
 requires-python = ">=3.12"

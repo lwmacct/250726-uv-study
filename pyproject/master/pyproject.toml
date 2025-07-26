@@ -1,6 +1,6 @@
 [project]
 name = "master"
-version = "0.1.0"
+version = "0.1.1"
 description = "Master application using pkg3"
 readme = "README.md"
 requires-python = ">=3.12"
