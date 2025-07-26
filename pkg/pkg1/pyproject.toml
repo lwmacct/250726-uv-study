@@ -10,10 +10,8 @@ dependencies = [
     "pkg2 @ git+https://github.com/lwmacct/250726-uv-study.git@main#subdirectory=pkg/pkg2",
     "requests @ git+https://github.com/psf/requests.git@v2.30.0",
 
-    # 方式2：在 workspace 中使用时，可以简化为：
-    # "pkg2",
-    # "requests @ git+https://github.com/psf/requests.git@v2.30.0",
 ]
+
 
 [project.scripts]
 pkg1 = "pkg1:main"
