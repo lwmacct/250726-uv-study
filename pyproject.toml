@@ -15,3 +15,4 @@ pkg3 = { workspace = true }
 
 # Git 仓库指定 tag 示例
 # requests = { git = "https://github.com/psf/requests.git", tag = "v2.30.0" }
+# uv pip install git+https://github.com/psf/requests.git@v2.30.0
